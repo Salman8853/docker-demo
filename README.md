@@ -82,11 +82,13 @@ This command will open the Shall of your mysql database container in which mysql
 ```
 >[!IMPORTANT]
 >Get **database password** from your **application.properties** file <br>
->Check the database `use <your-app-db-name>` connect to your database `show tables`.<br>
->Fetch the records `Select * from <db-name>`.
+>Check out the database `use <your-app-db-name>` command. and  `show tables` for show the tables in db.<br>
+>To fetch records `Select * from <db-name>`
+
+<br>
 
 
-THANK YOU
+THANK YOU & HAPPU LEARNING  🥰 ❤️
 
 
 
