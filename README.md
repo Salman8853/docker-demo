@@ -22,7 +22,7 @@ docker run --name  mysql-container -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456
 
 ```
 
-### Step 3: Change in Spring boot application.properties/application.ylm file
+### Step 3: Change in Spring boot application.properties/application.yml file
   In your Spring Boot application's application.properties or application.yml file, configure the MySQL database connection properties. Use the MySQL container's hostname (mysql-container) or IP address within the Docker network
 ```
 server.port=8082
