@@ -18,7 +18,7 @@ docker network create my-network
 >[!IMPORTANT]
 >This image will be pulled form docker hub public repository and then run by the below docker run command
 ```
-docker run --name  mysql-container -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Khanms8853@@ -e MYSQL_DATABASE=docker-db --network my-network mysql:8.3.0
+docker run --name  mysql-container -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=docker-db --network my-network mysql:8.3.0
 
 ```
 
