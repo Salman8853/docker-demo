@@ -32,7 +32,7 @@ spring.datasource.url=jdbc:mysql://mysql-container:3306/docker-db?createDatabase
 
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=root
-spring.datasource.password=Khanms8853@@
+spring.datasource.password=123456
 
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 spring.jpa.show-sql=true
