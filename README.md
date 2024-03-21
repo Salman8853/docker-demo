@@ -70,10 +70,11 @@ docker logs <Springboot app container Id>
 >Run the command `docker ps` this command will print all the running conatiners detail. If you are interested to know about stooped conatiners the hit this one `docker ps -a`
 
 ### Check the Mysql conatiner Database
-To  check the database of mysql use the command 
+To  check the database of mysql use the command <br>
 ```
-docker exec -it <conainer-ID> bash ```
-<br>
+  docker exec -it <conainer-ID> bash
+ ```
+
 This command will open the Shall of your mysql database container in which mysql database is running....<br>
 **To connect mysql database use the below command**
 ```
